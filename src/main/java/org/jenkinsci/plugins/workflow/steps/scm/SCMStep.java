@@ -87,7 +87,7 @@ public abstract class SCMStep extends Step {
         public void onResume() {
             try {
                 // TODO try to remove previous MultiSCMRevisionState entry from build for this checkout?
-                // BUT that should be replaced by the new checkout since it will
+                // BUT that should be replaced by the new checkout since it will have the same key for the checkout
                 // Changelog.xml file update
                 run();
                 // Note: we might need to remove previous SCM Checkout info
